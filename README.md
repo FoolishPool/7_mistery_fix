@@ -13,7 +13,17 @@
   c = 19    
   Корни : (-22.14189832689638, -0.8581016731036186)   
 ```
-
+# Импортирование quadratic_equation.py в программу:
+  Для использования функции из quadratic_equation.py , можно её импортировать и передать
+  функции аргументы: a, b, c
+  
+  Пример:
+  ```python
+  from quadratic_equation import get_roots
+  
+  roots = get_roots(1, 2, 3)
+  print(roots)
+  ```
 
 # Как запустить
 
