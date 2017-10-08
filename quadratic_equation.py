@@ -11,3 +11,12 @@ def get_roots(a, b, c):
         return root1, None
     else:
         return root1, root2
+
+if __name__ == '__main__':
+        print('Введите значения (a, b, c) для b ** 2 - 4 * a * c : ')
+        a = int(input('a = '))
+        b = int(input('b = '))
+        c = int(input('c = '))
+        roots = get_roots(a, b, c)
+        print('Корни :', roots)
+    
